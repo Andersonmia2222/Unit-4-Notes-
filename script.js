@@ -30,4 +30,34 @@ let worstNumber= 13;
 
 // You can "PASS IN" a VARIABLE imto a FUNCTION
 console.log(luckyNumber);
+// catch up on variables 
+let score=1;
+// Can combine operators, evaluation follows PEMDAS
+score=(score * 7/5) ** 2 - 10 + 5 ;
+console.log(score);
 
+// Working with strings (words/sentences/characters)
+// QUOTES always goes around String LITERALS
+let greeting = "hello " + "freind"; 
+// The PLUS SIGN merges (CONCATENATES) strings 
+console.log (greeting); 
+
+//Combine literal strings with VARIABLES
+let username="andersonmia"
+greeting = "hello" + username;
+console.log(greeting); 
+// Can CONCATENATE inside a function 
+console.log ("Goodbye," + username + "!"); 
+
+// converting to strings 
+console.log (4+5); //9 (added numbers)
+console.log( "4" + 5) // 45 
+console.log(4 + '5'); // 45 
+
+// SPECIAL OPPERATORS: Incremnet/Decrement 
+let counter = 0; 
+counter = counter + 1; // LONG WAY
+counter ++; // SHORTCUT
+console.log ("Count:" + counter);
+count--;
+console.log ("count:"+ counter)
