@@ -59,5 +59,22 @@ let counter = 0;
 counter = counter + 1; // LONG WAY
 counter ++; // SHORTCUT
 console.log ("Count:" + counter);
-count--;
+counter--;
 console.log ("count:"+ counter)
+
+/* FUNCTIONS;
+Reusable sets of code statments that perform a specific task or process
+*/
+ //Example of CALLING (using) a function 
+ console.log ("hellooo");
+ //Example of DECLARING (creating) a fuction
+ function skincare() {
+    // 3 statments (steps/instructions)
+    console.log("1. Double cleanse");
+    console.log("2. Toner");
+    console.log(" 3.Moisturize ");
+ }
+ // To CALL (run) our function, say its name 
+ skincare();
+ skincare(); //repeat the routine again!
+
