@@ -78,3 +78,22 @@ Reusable sets of code statments that perform a specific task or process
  skincare();
  skincare(); //repeat the routine again!
 
+ //Functions are like Recipes;
+ // - PARAMETERS ARE LIKE ingredients
+ // - RETURN values are like a completed meal 
+
+ // Example below is a recipe for creating a sandwich
+ //Need some fillling, bread and sauce to do it!
+ function makeSandwich (filling, bread, sauce) {
+
+   let sandwich = filling + " sandwich on " + bread +  " with " + sauce;
+   return sandwich; // OUTPUT!!! 
+
+ }
+ // Use the general recipe with ingredients
+ // Store the resulting sandwich in variable 
+ let grilledCheese = makeSandwich("cheese", "toast", "butter");
+ console.log(grilledCheese); 
+ 
+let caprese = makeSandwich("tomato mozz", "ciabatta", " pesto");
+console.log (caprese); 
