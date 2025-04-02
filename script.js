@@ -97,3 +97,22 @@ Reusable sets of code statments that perform a specific task or process
  
 let caprese = makeSandwich("tomato mozz", "ciabatta", " pesto");
 console.log (caprese); 
+
+//*** Selection (CONDITIONALS)****
+// A conditional expression is like a QUESTION 
+//where a boolean (true/false) is the ANSWER
+//Conditions that include COMPARISON OPERATORS
+// get EVALUATED and result in true/false 
+console.log( 2 > 1 ); //true 
+console.log(2 > 1 ); //true
+console.log(2==1); //== means are they equal 
+console.log(2 != 1 ); /// need to be right next to eachother,means not equl 
+console.log(2<1)
+ // ASSIGN a comparison result to a variable 
+ let result= (5>4); 
+ console.log(result); 
+ // Comparing STRING (text) uses dictionary order
+ //True if letter is later in order 
+ console.log('Z' > 'A'); 
+ console.log('Aamiyah' == 'Ethan')
+ 
